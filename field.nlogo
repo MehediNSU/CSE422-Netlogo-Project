@@ -3,13 +3,13 @@ to setup
   clear-all
 
   set holes patches with [pcolor = black]
-  ask patches
-  [   if pxcor > -36 and pxcor < -31 and pycor < 36 and pycor > -36 [set pcolor white]
-     if pxcor > -28 and pxcor < -23 and pycor < 36 and pycor > -36 [set pcolor white]
-    if pxcor > -20 and pxcor < -15 and pycor < 36 and pycor > -36 [set pcolor white]
-    if pxcor > -12 and pxcor < -7 and pycor < 36 and pycor > -36 [set pcolor white]
-    if pxcor > -4 and pxcor < 1 and pycor < 36 and pycor > -36  [set pcolor white]
-  if pxcor > 5 and pxcor < 10 and pycor < 36 and pycor > -36  [set pcolor white]
+ ask patches
+  [   ;;if pxcor > -36 and pxcor < -31 and pycor < 36 and pycor > -36 [set pcolor white]
+     if pxcor > -28 and pxcor < -20 and pycor < 36 and pycor > -36 [set pcolor white]
+    ;;if pxcor > -20 and pxcor < -15 and pycor < 36 and pycor > -36 [set pcolor white]
+    ;;if pxcor > -12 and pxcor < -7 and pycor < 36 and pycor > -36 [set pcolor white]
+    ;;if pxcor > -4 and pxcor < 1 and pycor < 36 and pycor > -36  [set pcolor white]
+  if pxcor > 1 and pxcor < 10 and pycor < 36 and pycor > -36  [set pcolor white]
  if pxcor > 23 and pxcor < 37 and pycor < 25 and pycor > -25 [set pcolor white]
     if pycor > -5 and pycor < 5 [set pcolor black]
     if pxcor > 23 and pxcor < 37 and pycor > -10 and pycor < 10 [set pcolor black]

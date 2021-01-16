@@ -46,7 +46,7 @@ end
 
 to setup-breeds
   ;; masked - triangle
-  set-default-shape masks "triangle"
+  set-default-shape masks "triangle 2"
   create-masks initial-number-masks
   [
     set size 3
@@ -60,7 +60,7 @@ to setup-breeds
   ]
 
   ;; non-masked - face neutral
-  set-default-shape nomasks "face neutral"
+  set-default-shape nomasks "Person"
   create-nomasks initial-people - initial-number-masks
   [
     set size 2
@@ -291,7 +291,7 @@ initial-people
 initial-people
 50
 500
-50.0
+150.0
 1
 1
 NIL
@@ -402,7 +402,7 @@ initial-number-masks
 initial-number-masks
 0
 75
-33.0
+30.0
 1
 1
 NIL
